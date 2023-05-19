@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    width: 800px;
+    margin: auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(173, 207, 236);
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+#sla{
+    display: none;
+}
+#soma{
+    display: none;
+    font-size: larger;
+    font-weight: 900;
+}
+button{
+    padding: 10px;
+    font-size: larger;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(86, 180, 180);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.card{
+
+    width: 200px;
+    height: 100px;
+    align-items: center;
+}
